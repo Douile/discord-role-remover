@@ -1,0 +1,19 @@
+{
+  "name": "remove-guild-roles",
+  "version": "1.0.0",
+  "description": "Remove a list of roles from all members of a guild",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "keywords": ["discord","discord-moderation"],
+  "author": "Douile",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^0.5.0",
+    "discord-api-types": "^0.34.0"
+  },
+  "type": "module"
+}
